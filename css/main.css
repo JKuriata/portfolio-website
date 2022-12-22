@@ -1,0 +1,40 @@
+body {
+    background-image: linear-gradient(to bottom right, white, lightcyan);
+    color: midnightblue;
+    font-size: 16px;
+}
+
+h1 {
+    margin: 2px;
+    font-weight: 300;
+    color:goldenrod;
+    font-size: 3em;
+}
+h2 {
+    margin-bottom: 2px;
+    color:goldenrod
+}
+
+.para1 {
+    color:midnightblue;
+}
+
+.img1 {
+    size:"50%"
+}
+
+.poem {
+    font-family: Garamond, serif;   
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+}
+
+.image-gallery > img {
+    padding: 10;
+}
